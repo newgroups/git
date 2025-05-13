@@ -6,13 +6,21 @@ cd #name ex. cd git took the workplace from week1 to git.
 touch filename + extension. For example, touch 01-hello.html is used to add the file to it.
 
 git add is to keep track of the file to keep track of, like git add 01-hello.html, 
-meaning it will be saved every time a commit is used. It means only the ones you might want to keep track on, not all the files.
+meaning it will be saved every time after the add is used. It means only the ones you might want to keep track on, not all the files.
+git commit -m "message" //It tells what change was made when you start working on it, ensuring that information can be tracked back.
+
+git status shows what has happened or what is going on with the local file.
+git push execute the push towards github
+
+If you want to do both add and commit at the same time, then you can use a different code:
+git commit -am "message"
 -->
 
 <!DOCTYPE html>
 <html lang="en">
     <title>Hello!</title>
     <body>
+        <h1>Welcome to my website</h1>
         Hello, World
     </body>
 </html>
